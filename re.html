@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo App</title>
+        <link rel="stylesheet" href="func.css">
+        <link rel="icon" href="image/task (1).png">
+    </head>
+    <body>
+    <main id="all">
+        
+        <div id="control">
+            <button id="btnLo" onclick="logout()">Log Out</button>
+            <h1>Todo Dodo App </h1> 
+            <h2><span id="date"></span></h2>
+            <form>
+            <label for="todo">
+                <img src="image/user.png" height="26" width="30px">
+            </label>   
+            <div id="inputset">
+                <input type="text" placeholder="Enter Task" id="taskinput"> 
+                <button id="btn">Enter</button>
+            </div>
+        </div>    
+        <div class="back">
+            <ul id="list">
+            </ul>
+        </div>
+        <!-- <button onclick="deleteTodo">Delete</button> -->
+        </form>   
+    </main>       
+</body>
+<script src="direct.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
